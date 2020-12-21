@@ -1,0 +1,26 @@
+.header {
+	padding-top: 50px;
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__nav {
+		ul {
+			display: flex;
+			list-style-type: none;
+			li {
+				padding: 0 0 20px 0;
+				margin-left: 50px;
+				font-size: 16px;
+				cursor: pointer;
+				&:first-child {
+					margin-left: 0;
+				}
+				&.is-active {
+					color: blue;
+					border-bottom: 2px solid blue;
+				}
+			}
+		}
+	}
+}

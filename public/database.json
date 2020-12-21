@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "dateOfRegistry": "20.2.2019",
+      "fullName": "Петров Петр Петрович",
+      "position": "Внешний Эксперт",
+      "email": "aiza@gmail.com",
+      "password": 4143424234,
+      "phone": "+996432435432"
+    },
+    {
+      "id": 1,
+      "dateOfRegistry": "20.2.2019",
+      "fullName": "Петров Петр Петрович",
+      "position": "Внешний Эксперт",
+      "email": "aiza@gmail.com",
+      "password": 4143424234,
+      "phone": "+996432435432"
+    }
+  ]
+}

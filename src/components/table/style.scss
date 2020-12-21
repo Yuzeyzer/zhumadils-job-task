@@ -1,0 +1,31 @@
+.table {
+	text-align: center;
+	th {
+		padding: 15px;
+		text-align: center;
+	}
+	td {
+		padding: 15px;
+	}
+}
+
+.modal {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+	form {
+		display: flex;
+		flex-direction: column;
+		input {
+			margin-bottom: 25px;
+		}
+	}
+}

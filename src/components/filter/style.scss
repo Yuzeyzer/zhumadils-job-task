@@ -1,0 +1,23 @@
+.filter {
+	background-color: rgba(125, 125, 125, 0.2);
+	padding: 25px 0;
+	&__title {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	&__form {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	&__name {
+		color: blue;
+	}
+	&__btn {
+		background-color: blue;
+		color: white;
+	}
+	label {
+		display: flex;
+		flex-direction: column;
+	}
+}
